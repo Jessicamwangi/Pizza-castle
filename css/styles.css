@@ -1260,3 +1260,69 @@ span{
   color: darkred;
 
 }
+.email-subscription{
+  background-image: url(assets/bg-shape5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 130px;
+  padding-top: 50px;
+}
+
+.email-subscription::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.email-subscription p{
+  width: 770px;
+}
+.email-form .form-control{
+  font-size: 18px;
+  color: #9a9a9a;
+  font-weight: 400;
+  padding: 0 100px 0 50px;
+  height: 60px;
+  border: none !important;
+  box-shadow: 3px 3px 24px 0px rgba(1, 2, 2, 0.02);
+  border-radius: 0;
+}
+.email-form .email-form-button{
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 128px;
+  padding: 16px 0;
+  font-size: 16px;
+  color: #fafafa;
+  font-weight: 600;
+  text-align: center;
+  line-height: 29px;
+}
+@media(max-width:991px){
+  .email-subscription{
+      padding: 100px 0;
+  }
+  .email-subscription p{
+      width: 100%;
+  }
+}
+
+@media(max-width: 767px){
+  .email-subscription{
+      padding: 50px 0;
+  }
+  .email-form .form-control{
+      padding: 0 20px;
+  }
+}
+
+@media(max-width:320px){
+  .email-form .form-control{
+      padding: 0 10px 0 10px;
+
+  }
+}
