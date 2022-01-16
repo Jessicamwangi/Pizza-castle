@@ -1108,4 +1108,155 @@ span{
       top: -20%;
   }
 }
+.chef-section{
+  background-image: url(assets/bg-shape4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+.shape-image-four img{
+  position: absolute;
+  left: 10%;
+  top: 22%;
+}
 
+.chef-image img{
+  box-shadow: 10px 10px 57px 0px rgba(103, 114, 148, 0.2);
+  text-shadow: 10px 10px 57px rgba(103, 114, 148, 0.2);
+  width: 100%;
+}
+
+.chef-content h3{
+  font-size: 30px;
+  line-height: 40px;
+  color: #a5312d;
+  font-weight: 700;
+  padding: 16px 0 30px ;
+}
+.chef-content p{
+  width: 657px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+}
+.chef-content span{
+  font-size: 16px;
+  line-height: 36px;
+  color: #9a9a9a;
+  font-weight: 400;
+}
+.social-share{
+  margin-top: 40px;
+}
+
+.social-share i{
+  font-size: 18px;
+  line-height: 28px;
+  color: #9a9a9a;
+  font-weight: 40;
+  text-align: left;
+}
+.social-share a:hover i{
+  color: #ee4540;
+}
+
+.chef-section .bx-controls.bx-has-controls-direction{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chef-section .bx-controls-direction a{
+  line-height: 48px;
+  background-color: #fff;
+  text-align: center;
+  color: #ee4540;
+  border: 2px solid #ee4540;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.chef-section .bx-controls-direction a:hover{
+  background-color: #ee4540;
+  color: #fff;
+  border: 2px solid #ee4540;
+}
+.chef-slider-inner{
+  overflow: hidden;
+}
+.chef-section .bx-controls-direction .bx-prev{
+  margin-right: 48px;
+}
+
+@media(max-width: 1500px){
+  .shape-image-four img{
+      left: 0;
+  }
+}
+@media(max-width: 1300px){
+  .shape-image-four img{
+      left: -10%;
+  }
+}
+@media(max-width: 1199px){
+  .chef-name{
+      margin: 10px 0 5px;
+  }
+}
+@media(max-width: 1024px){
+  .shape-image-four img{
+      left: -16%;
+  }
+  .chef-name{
+      margin: 20px 0 5px;
+      
+  }
+}
+@media(max-width: 991px){
+  .shape-image-four img{
+      left: -25%;
+      top: 20%;
+      transform: scale(0.9);
+  }
+  .chef-section{
+      padding-bottom: 100px;
+  }
+  .chef-content h3{
+      padding: 10px 0;
+  }
+  .chef-content p{
+      margin-bottom: 5px;
+  }
+  .chef-name{
+      margin: 10px 0 5px;
+  }
+}
+@media(max-width: 767px){
+  .shape-image-four img{
+      transform: scale(0.7);
+  }
+  .chef-section{
+      padding-bottom: 50px;
+      background: none;
+  }
+}
+@media(max-width: 575px){
+  .shape-image-four img{
+      transform: scale(0.5);
+      left: -60%;
+      top: 8%;
+  }
+  .chef-section .bx-controls.bx-has-controls-direction{
+      display: none;
+  }
+}
+
+.contain-pizza {
+  background-color: white;
+  text-align: center;
+  color: darkred;
+
+}
