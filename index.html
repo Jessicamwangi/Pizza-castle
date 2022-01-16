@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="css/animate.css" type="">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Pizza Castle</title>
 </head>
 <body>
@@ -38,9 +38,6 @@
                   </li>
                   <li class="nav-item tr-nav-item">
                     <a href="#menu" class="nav-link">Menu</a>
-                  </li>
-                  <li class="nav-item tr-nav-item">
-                    <a href="#feedback" class="nav-link">Feedback</a>
                   </li>
                   <li class="nav-item tr-nav-item">
                     <a href="#chef" class="nav-link">Chef</a>
@@ -76,30 +73,10 @@
           <div class="slider-video-section wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
             <div class="slider-obutton">
               <button class="btn">Order Now</button>
-            </div>
-            <div class="slider-pbutton">
-              <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src="assets/play-btn.png" alt="play button">
-              </div>
-              <p class="mb-0 ml-4">Watch Our Story</p>  
-              <!-- modal section starts  -->
-              <div id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                  <div class="modal-content">
-                    <button type="button" data-dismiss="modal" aria-label="Close" class="close">
-                      <i class="fas fa-window-close"></i>
-                    </button>
-                    <div class="modal-body">
-                      <video controls width="727" height="600">
-                        <source src="assets/video.mp4" type="video/mp4">
-                      </video>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- modal section ends -->
-            </div>
+            </div> 
+             
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -109,7 +86,6 @@
       <section class="specialities position-relative" id="Special">
         <h2 class="d-none">hidden</h2>
         <div class="shape-image-one">
-          <img src="assets/dottd-squre.png" class="img-fluid" alt="">
         </div>
         <div class="container">
           <div class="row specialities-top">
@@ -173,12 +149,6 @@
         </div>
       </section>
 
-      <!-- Our specialities items ends  -->    
-      <section id="menu" class="our-item-section position-relative">
-        <h2 class="d-none">hidden</h2>
-        <div class="shape-image-two">
-          <img src="assets/dottd-squre.png" alt="">
-        </div>
         <div class="container">
           <div class="row specialities-top">
             <div class="col-12 col-md-12 col-lg-12">
@@ -188,251 +158,75 @@
               <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">Take a look at our top items.</p>
             </div>
           </div>
-          <div class="row mx-md-0">
-            <div class="col-12 col-md-4 col-lg-3 p-lg-0">
-              <ul data-wow-duration="2s" data-wow-delay="0.4s" class="our-item-tab nav-tabs nav flex-column pl-0 wow fadeIn">
-                <li class="nav-item">
-                  <a href="#veg" data-toggle="tab" class="nav-link active">Veg Loaded</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#nonveg" data-toggle="tab" class="nav-link">Non Veg</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#mushroom" data-toggle="tab" class="nav-link">Mushroom</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#cheese" data-toggle="tab" class="nav-link">Cheese</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#paneer" data-toggle="tab" class="nav-link">Paneer</a>
-                </li>
-              </ul>
+          <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
+            <div class="controls-top "> 
+              <h2>Our Varieties</h2>
             </div>
-            <div class="col-12 col-lg-1 d-lg-block d-none p-0"></div>
-            <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-              <div class="tab-content" id="tabs">
-                <div class="tab-pane active" id="veg">
-                  <div class="our-item-slider veg-slider">
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Margarita pizza with Extra Chesse and Coke </h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            You  can't turn water into wine, but you can turn pizza into breakfast
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/b1.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Veg Loaded with organic veggies and Pepsi</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            You can't buy happiness. But you can buy pizza, and that's kind of the same thing.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/b2.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-                <div class="tab-pane" id="nonveg">
-                  <div class="our-item-slider non-veg-slider">
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Chicken Dominator with Grilled Chicken Rashers and Double Barbaque Chicken</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            There’s no better feeling in the world than a warm pizza box in your lap.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/de1.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Pepperoni Pizza</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Every pizza is a personal pizza if you try hard and believe in yourself.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/de2.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Veg Loaded</h5>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane" id="mushroom">
-                  <div class="our-item-slider mushroom-slider">
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Quattro Stagioni includes "Mushroom, Ham and many other Items"</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Hot, cheezy and ready for you to order.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/d1.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Napoletana or Napoli Pizza</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Do good. Be nice. Order pizza.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/d2.jpg" alt="">
-                          <div class="item-price">sh. 499</div>
-                        </div>
-                      </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/de1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Non veg</h5>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane" id="cheese">
-                  <div class="our-item-slider cheese-slider">
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Mozzarella</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Pizza is not a 'trend' it's a way of life.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/l1.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Goat Cheese</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Cheezy goodness.  
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/l2.jpg" alt="">
-                          <div class="item-price">sh. 499</div>
-                        </div>
-                      </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/d1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Mushroom</h5>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane" id="paneer">
-                  <div class="our-item-slider paneer-slider">
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Mexican green Wave"</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            Tasty heaven.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/s1.jpg" alt="">
-                          <div class="item-price">sh. 399</div>
-                        </div>
-                      </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/l1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Cheese</h5>
                     </div>
-                    <div class="our-item">
-                      <div class="our-item-inner">
-                        <div data-wow-duration="2s" data-wow-delay="0.4s" class="wow fadeInRight">
-                          <h3 class="mb-0">Farm House. A Pizza that goes ballistic on veggies</h3>
-                        </div>
-                        <div class="item_order">
-                          <p class="wow fadeIn mb-0" data-wow-duration="2s" data-wow-delay="0.4s">
-                            A pizza slice a day keeps sadness away.
-                          </p>
-                          <div class="our-item-button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                            <button class="btn">Order Now</button>
-                          </div>
-                        </div>
-                        <div class="our-item-image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <img src="assets/s2.jpg" alt="">
-                          <div class="item-price">sh. 499</div>
-                        </div>
-                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/s1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Paneer</h5>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="assets/d2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Mushrooms</h5>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+       
+
       <!-- Chef section  -->
       <section class="chef-section position-relative" id="chef">
         <h2 class="d-none">hidden</h2>
         <div class="shape-image-four">
-          <img src="images/dottd-squre.png" alt="">
+          <img src="assets/dottd-squre.png" alt="">
         </div>
         <div class="container position-relative">
           <div class="row specialities-top">
@@ -483,7 +277,7 @@
                 <div class="col-12 col-md-1 col-lg-1 p-lg-0 d-lg-block d-none"></div>
                 <div class="col-12 col-md-8 col-lg-7 p-lg-0">
                   <div class="chef-content wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-                    <h3 class="mb-0">Chef made somthing to impress customer</h3>
+                    <h3 class="mb-0">Chef made something to impress customer</h3>
                     <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                       Get amazed by the taste and quality pizza that are made by our chef.
                     </p>
@@ -503,6 +297,93 @@
           </div>
         </div>
       </section>
+      <div class="orders" id="order">
+        <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Pick your pizza Flavour:</label>
+                    <select class="custom-select custom-select-md mb-3 flavour" required>
+                        <option value="vegtikka">Cheese</option>
+                        <option value="chickentikka">Veggie</option>
+                        <option value="periperi">Pepperoni</option>
+                        <option value="bbq">Margherita</option>
+                        <option value="boerewors">BBQ Chicken</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="mushroom">Buffalo</option>
+                        <option value="regina">Meat Pizza</option>
+                    </select>
+                    <label>Chose your preferred Size:</label>
+                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                        <option value="regular">Regular @ 899</option>
+                        <option value="medium">Medium @ 1299</option>
+                        <option value="large">Large @ 1799</option>
+                    </select>
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                        <option value="thin">Thin Crust @ Ksh. 200</option>
+                        <option value="thick">Thick Crust @ Ksh. 350</option>
+                        <option value="flatbread">FlatBread Crust @ sh. 250</option>
+                        <option value="custom">Custom Crust @ sh. 400</option>
+                    </select>
+                    <label>Select Your favourite Toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                        <option value="tomato">Tomato @ sh. 50</option>
+                        <option value="onions">Onions @ sh. 50</option>
+                        <option value="mushroom">Mushroom @ sh. 100</option>
+                        <option value="greenpepper">Green Pepper @ sh. 80</option>
+                        <option value=""></option>
+                        <option value="olives">Olives @ sh. 120</option>
+                        <option value="pineapple">Pineapple @ sh. 120</option>
+                        <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                        <option value="macon">Macon @ sh. 150</option>
+                        <option value="mince">Mince @ sh. 130</option>
+                        <option value=""></option>
+                        <option value="beef">Beef Peperoni @ sh. 200</option>
+                        <option value="chicken">Periperi Chicken @ sh. 170</option>
+                    </select>
+                    <label for="number">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+    
+    
+                </form>
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Checkout
+                    </button>
+                </a>
+    
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    
+    <div class="order-summary" id="sum-order">
+        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+        <ol id="list" class="text-center sum">
+        </ol>
+    
+    
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
+    
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="d-block mx-auto text-center">
+            <button class='deliver'>Make Delivery</button>
+            <button class='delivernot'>Pick Up</button>
+        </div>
+    </div>
        <!-- email section  -->
        <section class="email-subscription position-relative" id="contact">
         <div class="container">
@@ -585,9 +466,17 @@
         </div>
       </div>
     </footer>
-
+  
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="js/bx-slider/jquery.bxslider.js"></script>
+  <script src="js/bx-slider/jquery.easing.1.3.js"></script>
+  <script src="js/bx-slider/jquery.fitvids.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
+  <script>
+    new WOW().init();
+
+  </script>
 </body>
 </html>
