@@ -17,7 +17,7 @@
           <div class="col-6 col-md-4 col-lg-2">
             <div class="logo">
               <a href="index.html">
-                <img src="images/logo.png" alt="Logo" class="img-fluid">
+                <img src="assets/logo.png" alt="Logo" class="img-fluid">
               </a>
             </div>
           </div>
@@ -49,19 +49,61 @@
                     <a href="#contact" class="nav-link">Contact</a>
                   </li>
                 </ul>
-                <div class="header-search">
-                  <input type="text" class="form-control header-input" placeholder="Search here ...">
-                  <span class="search-icon">
-                    <i class="fas fa-search"></i>
-                  </span>
-                  <span class="close-icon"><i class="fas fa-times"></i></span>
-                </div>
               </div>
             </nav>
           </div>
         </div>
       </div>
     </header>
+   <!-- End header -->
+
+   <section class="home-slider">
+    <div class="home-slider-image wow fadeInRight col-xl-5 col-lg-6 col-md-6 col-12 p-0" data-wow-duration="2s" data-wow-delay="1s">
+      <img src="assets/bg.png" alt="BG Image" class="img-fluid" data-wow-delay="1s">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-11 col-md-6 col-lg-9 col-xl-10">
+          <div class="slider-content">
+            <span class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+              Making you fall in love with our pizza with every bite.
+            </span>
+            <h1 class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">Perfect party food</h1>
+            <p class="mb-0 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+              Pizza Castle is the perfect place if you are looking for quality, taste, size and best service. It is the perfect place for party food as we offer online delivery.
+            </p>
+          </div>
+          <div class="slider-video-section wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+            <div class="slider-obutton">
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="slider-pbutton">
+              <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">
+                <img src="assets/play-btn.png" alt="play button">
+              </div>
+              <p class="mb-0 ml-4">Watch Our Story</p>  
+              <!-- modal section starts  -->
+              <div id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                    <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                      <i class="fas fa-window-close"></i>
+                    </button>
+                    <div class="modal-body">
+                      <video controls width="727" height="600">
+                        <source src="assets/video.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal section ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>            
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
